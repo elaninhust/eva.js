@@ -16,6 +16,9 @@ const easingMap = {
   'bounce-in': Easing.Bounce.In,
   'bounce-out': Easing.Bounce.Out,
   'bounce-in-out': Easing.Bounce.InOut,
+  'expo-in': Easing.Exponential.In,
+  'expo-out': Easing.Exponential.Out,
+  'expo-in-out': Easing.Exponential.InOut,
   none: p => ~~p,
 };
 
